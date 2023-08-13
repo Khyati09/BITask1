@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khyati Boonlia - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: yellow;
+        }
+
+        header {
+            background-color: #333;
+            color: rgb(197, 245, 179);
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: ghostwhite;
+            font-size: 1.6rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #f0a500;
+        }
+
+        section {
+            padding: 40px;
+            color: #333;
+            background-color: rgba(86, 239, 150, 0.541);
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: rgb(161, 102, 26);
+        }
+
+        section p {
+            font-size: 1.8rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Add some additional styles for visual appeal */
+        header {
+            background-color: yellowgreen;
+        }
+        h3{
+           color: #560808;
+           font-size: x-large;
+        }
+
+        header .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+        }
+
+        .skill-icons {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .skill-icons li {
+            margin: 0 15px;
+            font-size: 1.5rem;
+        }
+
+        #skills {
+            background-color: #d8f469e8	;
+            color: hsl(226, 85%, 15%);
+        }
+
+        #experience {
+            background-color: #31cb5fdb	;
+            color: #000;
+            
+        }
+
+        #contact {
+            background-color: #2acf90;
+            color: #fff;
+        }
+
+        .timeline {
+            list-style: none;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .timeline li {
+            position: relative;
+            padding-bottom: 30px;
+        }
+
+        .timeline .date {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .timeline .event {
+            font-size: 1.7rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: rgb(86, 88, 11);
+        }
+
+        .timeline .description {
+            font-size: 1.5rem;
+        }
+
+        #contact form input,
+        #contact form textarea,
+        #contact form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #contact form button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #contact form button:hover {
+            background-color: #f0a500;
+        }
+        .description{
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-image: url('your-background-image.jpg'); background-size: cover; background-position: center;">
+        <div class="overlay">
+            <h1 style="letter-spacing: 0.7rem;">Khyati Boonlia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Khyati Boonlia. Enthusiatic Software Development Engineer. I want to seek web developer roles in
+            a progressive company. Currently in Pune pursuing my degree. My vision
+            is to leverage my programming and organization skills to contribute to
+            the prosperity of the organization. With my dedication & hardwork I can contribute to various organizations and companies thorugh my skills.  
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skill-icons">
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+            <li><i class="fa-solid fa-file-shield"></i> Data Structures</li>
+            <!-- Add more skills and icons as needed -->
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul class="timeline">
+            <li>
+                <div class="date">2023 - Present</div>
+                <div class="event">Project Intern, Bandhoo Solutions</div>
+                <div class="description">As an intern at Bandhoo Solutions, I had the valuable opportunity to 
+                    contribute to  projects and gain practical experience in the field of 
+                    front end development. I am assisting my team in creating an application which is for the construction sites. Additionally, 
+                    I participate in meetings, providing valuable insights and helping in the 
+                    preparation of analysis reports. My dedication to detail and willingness 
+                    to learn allowed me to work effectively and contribute to my team. </div>
+            </li>
+            <br>
+            <li>
+                <div class="date">2023 - Present</div>
+                <div class="event">Intern, Bharat Intern</div>
+                <div class="description">As an intern at Bharat Intern, I had the incredible
+                     opportunity to gain hands-on experience in the field of web development. 
+                     I have learnt to create various websites and clones which adds an essential skill. I have learnt various languages HTML, CSS & JavaScript to work on the websites.
+                    This platform has provided me a great opportunity. Through my intersnhip program I was able to develop many skills. </div>
+            </li>
+            <!-- Add more timeline items for other experiences -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>
+            <h3 style="font-weight: bold;">Weather Web Application</h3>
+                <p style="font-size: x-large; padding-top: 0%;">Made it using html, css, javascript, react and rapid-api, this web page tells
+                    about temperature and wind speed of any place on the globe. <BR><BR>
+                     <h3 style="font-weight: bold;">Distance Indicator (microprocessor project)</h3>
+                     <p style="font-size: x-large;">This is an Arduino based project. <br>It detects an object and based on distance it ons and off and led.</p><br>
+
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact_form_handler.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
